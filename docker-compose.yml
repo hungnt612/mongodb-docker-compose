@@ -8,7 +8,7 @@ services:
             - "27017-27019:27017-27019"
         environment:
             MONGO_INITDB_ROOT_USERNAME: doanxem
-            MONGO_INITDB_ROOT_PASSWORD: Admin@123
+            MONGO_INITDB_ROOT_PASSWORD: Admin123
             MONGO_INITDB_DATABASE: doanxem
         volumes:
             - ./docker/mongo-entrypoint:/docker-entrypoint-initdb.d
